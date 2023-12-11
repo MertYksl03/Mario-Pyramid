@@ -20,7 +20,7 @@ int get_height(void)
             break;
         }
         else
-        {   //to clear the input
+        {   
             while (getchar() != '\n');
             printf("Invalid input. Please enter a valid number between 0-10.\n");
         }
