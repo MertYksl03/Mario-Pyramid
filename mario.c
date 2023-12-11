@@ -1,11 +1,11 @@
 #include <stdio.h>
 int get_height(void);
-void print_hills(int n);
+void print_pyramid(int n);
 
 int main(void)
 {
     int lines= get_height();
-    print_hills(lines);
+    print_pyramid(lines);
     return 0;
 }
 
@@ -28,7 +28,7 @@ int get_height(void)
     return x;
 }
 
-void print_hills(int lines)
+void print_pyramid(int lines)
 { 
     int space= lines-1;
     int box=1;
